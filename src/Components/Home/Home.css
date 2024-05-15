@@ -4,6 +4,12 @@
 .banareimagediv{
     position: relative !important;
 }
+.carousel-indicators {
+    top: 490px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #041F56;
+}
 .banaretext {
     position: absolute;
     top: 50%;
@@ -163,7 +169,17 @@
         border: 1px solid #041F56;
         /* display: flex; */
     }
-
+    .banaretext {
+        position: absolute;
+        top: 73%;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
     .ourcertifateimage {
         height: 100px;
         width: 100%;
@@ -173,6 +189,12 @@
     }
     .mainsection {
         margin-top: 0px;
+    }
+    .carousel-indicators {
+        top: 150px;
+    }
+    .carousel-indicators [data-bs-target] {
+        background-color: #041F56;
     }
 }
 
