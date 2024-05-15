@@ -15,8 +15,9 @@ const Footer = () => {
               <i class="ri-map-pin-line"></i>
               <p>Location</p>
               <p className='footertext'>
-                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
-                Yeongdeungpo-gu, Seoul, Republic of Korea
+                A-4, 1st Floor, Main Vasant Kunj Road
+                (Opposite Jagannath Complex)
+                Mahipalpur Chowk, New Delhi- 110037
               </p>
             </div>
             <div className="footerboxfirst">
@@ -28,16 +29,18 @@ const Footer = () => {
               <i class="ri-customer-service-line"></i>
               <p>Location</p>
               <p className='footertext'>
-                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
-                Yeongdeungpo-gu, Seoul, Republic of Korea
+                A-4, 1st Floor, Main Vasant Kunj Road
+                (Opposite Jagannath Complex)
+                Mahipalpur Chowk, New Delhi- 110037
               </p>
             </div>
             <div className="footerboxfirst">
               <i class="ri-user-follow-fill"></i>
               <p>Location</p>
               <p className='footertext'>
-                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
-                Yeongdeungpo-gu, Seoul, Republic of Korea
+                A-4, 1st Floor, Main Vasant Kunj Road
+                (Opposite Jagannath Complex)
+                Mahipalpur Chowk, New Delhi- 110037
               </p>
             </div>
           </div>
