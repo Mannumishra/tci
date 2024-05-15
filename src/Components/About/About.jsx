@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import about from '../../image/about-banner-bg.jpg'
+import about from '../../image/aboutus.webp'
 import "./About.css"
 const About = () => {
   useEffect(() => {
