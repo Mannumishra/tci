@@ -14,31 +14,31 @@ const Footer = () => {
             <div className="footerboxfirst">
               <i class="ri-map-pin-line"></i>
               <p>Location</p>
-              <p className='footertext'>Unit no. 561, 5th Floor,
-                Vegas Mall, Block – B,
-                Plot no.–6, Sector-14,
-                Dwarka, New Delhi – 110078</p>
+              <p className='footertext'>
+                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
+                Yeongdeungpo-gu, Seoul, Republic of Korea
+              </p>
             </div>
             <div className="footerboxfirst">
               <i class="ri-mail-unread-line"></i>
               <p>Email</p>
-              <p className='footertext'>upendra@gfsolutions.in</p>
+              <p className='footertext'>dummy@gmail.com</p>
             </div>
             <div className="footerboxfirst">
               <i class="ri-customer-service-line"></i>
               <p>Location</p>
-              <p className='footertext'>Unit no. 561, 5th Floor,
-                Vegas Mall, Block – B,
-                Plot no.–6, Sector-14,
-                Dwarka, New Delhi – 110078</p>
+              <p className='footertext'>
+                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
+                Yeongdeungpo-gu, Seoul, Republic of Korea
+              </p>
             </div>
             <div className="footerboxfirst">
               <i class="ri-user-follow-fill"></i>
               <p>Location</p>
-              <p className='footertext'>Unit no. 561, 5th Floor,
-                Vegas Mall, Block – B,
-                Plot no.–6, Sector-14,
-                Dwarka, New Delhi – 110078</p>
+              <p className='footertext'>
+                13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
+                Yeongdeungpo-gu, Seoul, Republic of Korea
+              </p>
             </div>
           </div>
         </div>

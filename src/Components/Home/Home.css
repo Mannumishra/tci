@@ -1,3 +1,6 @@
+.mainsection {
+    margin-top: 80px;
+}
 .besthomesecond {
     background-color: #041F56;
 }
@@ -152,6 +155,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .mainsection {
+        margin-top: 0px;
     }
 }
 
