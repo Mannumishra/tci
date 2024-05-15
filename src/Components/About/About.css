@@ -100,7 +100,7 @@
 } */
 .maindivhomeabout {
     background-color: #F1F1F1;
-    padding: 10px 40px;
+    padding: 60px 40px;
 }
 
 .homeaboutbutton {
@@ -145,7 +145,7 @@
         align-items: center;
     }
     .maindivhomeabout {
-        padding: 10px 6px;
+        padding: 30px 6px;
     }
     .homeaboutimage1 {
         width: 100%;
