@@ -1,7 +1,6 @@
 .besthomesecond {
     background-color: #041F56;
 }
-
 .childchildfirst {
     display: flex;
     justify-content: center;
@@ -157,6 +156,8 @@
 }
 
 @media (max-width:768px){
+
+
     .wearebesthome {
         display: flex;
         padding: 0px;

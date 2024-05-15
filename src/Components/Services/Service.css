@@ -99,6 +99,9 @@
         padding: 30px;
         box-sizing: border-box;
     }
+    .servicemain{
+        margin-top: 0px;
+    }
 }
 @media (max-width: 768px) {
     .homeabouthead {

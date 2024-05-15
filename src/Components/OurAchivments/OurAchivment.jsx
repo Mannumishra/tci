@@ -10,7 +10,7 @@ const OurAchivment = () => {
     })
     return (
         <>
-            <section className='mb-5' style={{backgroundColor:"#F1F1F1"}}>
+            <section className='' style={{backgroundColor:"#F1F1F1"}}>
                 <div className='achivmentdiv'>
                     <p className='achivmentheading'>Our Achievements</p>
                 </div>
