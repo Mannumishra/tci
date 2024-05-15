@@ -1,0 +1,73 @@
+.serviceareaheadingmain {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.aseamapdiv {
+    height: 350px;
+    width: 18%;
+}
+
+.mapimage {
+    height: 250px;
+    width: 240px;
+}
+
+.areaheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #4E4E4E;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.aseacitynamediv{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1px;
+    margin-top: 20px;
+    gap: 3px;
+}
+.aseacitynamediv p{
+    font-size: 15px;
+    font-weight: 600 ;
+    text-align: justify;
+}
+
+.serviceareadiv {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width:768px){
+    .serviceareadiv {
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .aseamapdiv {
+        height: auto;
+        width: 100%;
+    }
+    .areaheading {
+        font-size: 21px;
+    }
+    .mapimage {
+        height: 200px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbarmain {
+    background-color: white;
+    color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navmenu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarunlist {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navlinks {
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.navicon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #474747;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logoimage {
+    height: 70px;
+    padding: 10px;
+}
+
+.navlink:hover {
+    color: orange;
+}
+
+@media(max-width:768px) {
+    .navicon {
+        height: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        height: 50px;
+        /* width: 50px; */
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarmain {
+        /* position: fixed; */
+        position: relative;
+    }
+
+    .navmenu {
+        height: 58px; /* Set a fixed height */
+        width: 100%;
+        position: absolute;
+        bottom: 100px;
+        left: 100px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: white;
+        left: -178%;
+        padding: 10px;
+        top: 100%;
+        transition: all 0.9s ease;
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+    
+
+    .mobile-responsive {
+        transition: all 0.7s ease;
+        left: 0%;
+    }
+
+    .navbarunlist {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 1px;
+        padding: 0px;
+        list-style-type: none;
+        cursor: pointer;
+        color: white !important;
+    }
+}

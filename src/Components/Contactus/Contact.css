@@ -1,0 +1,66 @@
+.contactmain{
+    margin-top: 70px;
+}
+.contactbg{
+    background-image: url(../../image/contact-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.location{
+    border: 2px solid #395DA0;
+    padding: 20px;
+    width: 33%;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.contact-content p{
+    font-weight: 700;
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+    text-shadow:  0px 3px rgba(0, 0, 0, 0.47);
+    color: white;
+}
+.locationheading{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conatctinfo{
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.locationaddress{
+    width: 100%;
+}
+
+@media (max-width:768px){
+    .contact-content p {
+        font-weight: 600;
+        width: 90%;
+        font-size: 23px;
+        text-align: start;
+        text-shadow: 0px 3px rgba(0, 0, 0, 0.47);
+        color: white;
+        margin-top: 100px;
+    }
+    .conatctinfo{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .location{
+        border: 2px solid #395DA0;
+        padding: 20px;
+        width: 100%;
+    }
+}

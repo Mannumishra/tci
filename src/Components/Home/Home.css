@@ -1,0 +1,179 @@
+.besthomesecond {
+    background-color: #041F56;
+}
+
+.childchildfirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(80, 92, 135);
+}
+
+.childsecond input {
+    background-color: #041F56;
+    border: 2px solid white;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.childsecond select {
+    background-color: #041F56;
+    border: 2px solid white;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.chilchildsecond textarea {
+    background-color: #041F56;
+    border: 2px solid white;
+    height: 150px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.wearebesthome {
+    display: flex;
+    padding: 0px;
+}
+
+.besthomefirst {
+    width: 50%;
+    padding: 40px;
+}
+
+.bestchuldfirst {
+    display: flex;
+    gap: 30px;
+}
+
+.besthomesecond {
+    width: 50%;
+    padding: 40px;
+    color: white;
+}
+
+.bestchildsecond {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.childsecond {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chilchildsecond {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.chilchildsecond input {
+    background-color: #041F56;
+    border: 2px solid white;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.besthomeheading {
+    font-size: 40px;
+    color: #4E4E4E;
+    font-weight: 400;
+}
+
+.bestchiledheading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4E4E4E;
+}
+
+.bestchildtext {
+    font-size: 15px;
+    font-weight: 600;
+    color: #4E4E4E;
+}
+
+.buttonbesthome {
+    height: 40px;
+    color: #4E4E4E;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* certificate */
+.oursertificates {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.ourcerficatediv {
+    width: 24%;
+}
+
+.certificatename {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Responsive  */
+
+@media (max-width:768px) {
+    .oursertificates {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .ourcerficatediv {
+        width: 49%;
+        border: 1px solid #041F56;
+        /* display: flex; */
+    }
+
+    .ourcertifateimage {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    .wearebesthome {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .besthomefirst {
+        width: 100%;
+        padding: 15px;
+    }
+    .besthomesecond {
+        width: 100%;
+        padding: 15px;
+        color: white;
+    }
+    .besthomeheading {
+        font-size: 29px;
+        color: #4E4E4E;
+        font-weight: 700;
+    }
+}

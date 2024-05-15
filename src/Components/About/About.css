@@ -1,0 +1,175 @@
+.aboutmain{
+    margin-top: 80px;
+}
+.aboutbgimage{
+    height: auto;
+    width: 100%;
+}
+.aboutsecond{
+    padding: 50px;
+    background-color: #F1F1F1;
+}
+.abouttext{
+    text-align: justify;
+}
+/* About section start */
+.mainsection {
+    margin-top: 80px;
+}
+
+.homeaboutmain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.homeabouttextdiv {
+    width: 40%;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeaboutimage1 {
+    width: 19%;
+    height: 300px;
+    position: relative;
+}
+
+.homeaboutimage2 {
+    width: 19%;
+    height: 300px;
+    position: relative;
+}
+
+.homeabouthead {
+    font: 500 39px / 1.2em 'Titillium Web', sans-serif;
+    color: #4E4E4E;
+}
+
+.homeaboutimage3 {
+    width: 19%;
+    height: 300px;
+    position: relative;
+}
+
+.aboutimage {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    /* opacity: 0.9; */
+}
+
+.imagetextdiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.557);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtext {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttonabout {
+    display: none;
+    padding: 8px;
+    background-color: #F1F1F1;
+    border: 0px;
+    border-radius: 5px;
+}
+
+/* .buttonabout :hover{
+    display: none;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+} */
+.maindivhomeabout {
+    background-color: #F1F1F1;
+    padding: 10px 40px;
+}
+
+.homeaboutbutton {
+    background-color: rgb(80, 92, 135);
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.homeaboutimage1:hover .buttonabout {
+    display: block;
+}
+
+.homeaboutimage2:hover .buttonabout {
+    display: block;
+}
+
+.homeaboutimage3:hover .buttonabout {
+    display: block;
+}
+
+@media (max-width:768px){
+    .homeaboutmain {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .homeabouttextdiv {
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .maindivhomeabout {
+        padding: 10px 6px;
+    }
+    .homeaboutimage1 {
+        width: 100%;
+        gap: 10px;
+        height: 300px;
+        position: relative;
+    }
+    .homeaboutimage2 {
+        margin-top: 5px;
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .homeaboutimage3 {
+        margin-top: 5px;
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .homeabouthead {
+        font: 563 30px / 1.2em 'Titillium Web', sans-serif;
+        color: #4E4E4E;
+    }
+    .aboutsecond {
+        padding: 15px;
+        background-color: #F1F1F1;
+    }
+}
