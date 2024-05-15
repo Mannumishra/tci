@@ -29,20 +29,25 @@ const Home = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active banareimagediv">
               <img src={imagee1} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item banareimagediv">
               <img src={imagee2} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item banareimagediv">
               <img src={imagee3} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item banareimagediv">
               <img src={imagee4} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item banareimagediv">
               <img src={imagee5} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

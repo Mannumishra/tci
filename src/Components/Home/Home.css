@@ -1,6 +1,21 @@
 .mainsection {
     margin-top: 80px;
 }
+.banareimagediv{
+    position: relative !important;
+}
+.banaretext {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700; /* Note: changed font-weight value */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, and color */
+}
+
 .besthomesecond {
     background-color: #041F56;
 }
