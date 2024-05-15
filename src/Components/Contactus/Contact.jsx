@@ -42,14 +42,14 @@ const Contact = () => {
                 <p>TRANS WORLD EXPRESS CO., LTD.</p>
               </div>
             </div>
-            <div className="location">
+            {/* <div className="location">
               <div>
                 <p className='locationheading'>Qr Code</p>
               </div>
               <div>
 
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="homeabouthead mt-5">
             <p>Affiliated Companies<span style={{ color: "#003189" }}>/Offices in India </span></p>
@@ -73,14 +73,14 @@ const Contact = () => {
               <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
               </div>
             </div>
-            <div className="location">
+            {/* <div className="location">
               <div>
                 <p className='locationheading'>Qr Code</p>
               </div>
               <div>
 
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="conatctinfo mt-2">
             <div className="location">
@@ -99,13 +99,13 @@ const Contact = () => {
               <p>TRANS CONTINENTAL FREIGHT SERVICE INDIA PVT. LTD</p>
               </div>
             </div>
-            <div className="location">
+            {/* <div className="location">
               <div>
                 <p className='locationheading'>Qr Code</p>
               </div>
               <div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="homeabouthead mt-5">
             <p>Affiliated Companies<span style={{ color: "#003189" }}>Office in South Africa </span></p>
@@ -127,14 +127,14 @@ const Contact = () => {
               <p>TCI LOGISTICS SOUTH AFRICA PTY., LTD.</p>
               </div>
             </div>
-            <div className="location">
+            {/* <div className="location">
               <div>
                 <p className='locationheading'>Qr Code</p>
               </div>
               <div>
 
               </div>
-            </div>
+            </div> */}
           </div>
           {/* </div> */}
         </div>
