@@ -1,21 +1,24 @@
-.servicemain{
+.servicemain {
     margin-top: 70px;
 }
-.servicebg{
+
+.servicebg {
     background-image: url(../../image/service-banner-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 450px;
 }
-.servicebg .service-content{
+
+.servicebg .service-content {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
-.servicebg .service-content p{
+
+.servicebg .service-content p {
     width: 55%;
     text-align: center;
     color: white;
@@ -24,20 +27,24 @@
     text-shadow: 0px 5px rgb(45, 45, 45);
     font-size: 42px;
 }
-.servicescontectsection{
+
+.servicescontectsection {
     background-color: #F1F1F1;
     padding: 40px;
 }
-.servicecontent{
+
+.servicecontent {
     text-align: justify;
 }
-.serviceboxmain{
+
+.serviceboxmain {
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
-.servicebox{
+
+.servicebox {
     width: 24%;
     border: 2px solid;
     border-color: #395DA0;
@@ -46,29 +53,33 @@
     padding: 15px;
     box-sizing: border-box;
 }
-.servicebox i{
+
+.servicebox i {
     font-size: 60px;
     transform: rotate(40deg);
     color: black;
     opacity: 0.5;
     font-weight: 900;
 }
-.servicebox:hover{
-    background-color:#395DA0;
+
+.servicebox:hover {
+    background-color: #395DA0;
     color: white;
 }
-.servicesheading{
+
+.servicesheading {
     font-size: 18px;
     font-weight: 850;
     opacity: 0.8;
 }
-.servicebutton{
+
+.servicebutton {
     padding: 5px 10px;
     border: 1px solid rgba(0, 0, 0, 0.121);
 }
 
 
-@media (max-width:768px){
+@media (max-width:768px) {
     .servicebg .service-content p {
         width: 72%;
         text-align: start;
@@ -78,19 +89,21 @@
         text-shadow: 0px 5px rgb(45, 45, 45);
         font-size: 23px;
     }
+
     .servicescontectsection {
         background-color: #F1F1F1;
         padding: 15px;
     }
-    
-    .serviceboxmain{
+
+    .serviceboxmain {
         padding: 15px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 10px;
     }
-    .servicebox{
+
+    .servicebox {
         width: 100%;
         border: 2px solid;
         border-color: #395DA0;
@@ -99,10 +112,16 @@
         padding: 30px;
         box-sizing: border-box;
     }
-    .servicemain{
+
+    .servicemain {
         margin-top: 0px;
     }
+
+    .servicebg {
+        height: 153px;
+    }
 }
+
 @media (max-width: 768px) {
     .homeabouthead {
         font: 763 25px / 1.2em 'Titillium Web', sans-serif;
