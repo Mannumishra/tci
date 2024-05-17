@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import about from '../../image/aboutus.webp'
+import about from '../../image/slider-1.jpg'
 import "./About.css"
 const About = () => {
   useEffect(() => {
