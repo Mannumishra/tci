@@ -16,7 +16,7 @@ const Navbar = () => {
       <section>
         <div className="navbarmain">
           <div className="navlogo">
-            <Link to="/"> <img src={logo} alt="" className='logoimage' /></Link>
+            <Link to="/" onClick={DeActiveMobile}> <img src={logo} alt="" className='logoimage' /></Link>
           </div>
           <div className={`navmenu ${isMobileActive ? "mobile-responsive" : ""}`}>
             <ul className='navbarunlist'>
