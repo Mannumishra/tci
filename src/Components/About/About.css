@@ -1,17 +1,21 @@
-.aboutmain{
+.aboutmain {
     margin-top: 60px;
 }
-.aboutbgimage{
+
+.aboutbgimage {
     height: 350px;
     width: 100%;
 }
-.aboutsecond{
+
+.aboutsecond {
     padding: 50px;
     background-color: #F1F1F1;
 }
-.abouttext{
+
+.abouttext {
     text-align: justify;
 }
+
 /* About section start */
 
 
@@ -31,16 +35,17 @@
     align-items: center;
 }
 
-.homeaboutimage{
+.homeaboutimage {
     width: 51%;
     height: 300px;
     position: relative;
 }
 
-.homeaboutimage img{
+.homeaboutimage img {
     height: auto;
     width: 100%;
 }
+
 /* .homeaboutimage2 {
     width: 19%;
     height: 300px;
@@ -50,6 +55,7 @@
 .homeabouthead {
     font: 500 39px / 1.2em 'Titillium Web', sans-serif;
     color: #4E4E4E;
+    font-weight: 700;
 }
 
 /* .homeaboutimage3 {
@@ -104,7 +110,7 @@
 } */
 .maindivhomeabout {
     background-color: #F1F1F1;
-    padding: 60px 40px;
+    padding: 23px 40px;
 }
 
 .homeaboutbutton {
@@ -129,16 +135,18 @@
     display: block;
 }
 
-@media (max-width:768px){
-    .aboutmain{
+@media (max-width:768px) {
+    .aboutmain {
         margin-top: 0px;
     }
+
     .homeaboutmain {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 0px;
     }
+
     .homeabouttextdiv {
         width: 100%;
         padding: 10px;
@@ -148,33 +156,49 @@
         justify-content: center;
         align-items: center;
     }
+
     .maindivhomeabout {
-        padding: 30px 6px;
+        padding: 0px 6px;
+        margin-top: 40px;
     }
+
     .homeaboutimage1 {
         width: 100%;
         gap: 10px;
         height: 300px;
         position: relative;
     }
+
     .homeaboutimage2 {
         margin-top: 5px;
         width: 100%;
         height: 300px;
         position: relative;
     }
+
     .homeaboutimage3 {
         margin-top: 5px;
         width: 100%;
         height: 300px;
         position: relative;
     }
+
     .homeabouthead {
         font: 563 30px / 1.2em 'Titillium Web', sans-serif;
         color: #4E4E4E;
     }
+
     .aboutsecond {
         padding: 15px;
         background-color: #F1F1F1;
+    }
+
+    .homeaboutimage {
+        width: 100%;
+    }
+
+    .aboutbgimage {
+        height: 162px;
+        width: 100%;
     }
 }

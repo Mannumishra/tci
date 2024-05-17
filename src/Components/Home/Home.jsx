@@ -1,9 +1,9 @@
 import React from 'react'
-import imagee1 from '../../image/slider-1.jpg'
-import imagee2 from '../../image/slider-2.jpg'
-import imagee3 from '../../image/slider-3.jpg'
-import imagee4 from '../../image/slider-4.jpg'
-import imagee5 from '../../image/slider-5.jpg'
+import imagee1 from '../../image/sliderimage2.jpg'
+import imagee2 from '../../image/sliderimage3.jpg'
+import imagee3 from '../../image/slider-5.jpg'
+import imagee4 from '../../image/sliderimage6.jpg'
+import imagee5 from '../../image/sliderimage.webp'
 import imagee6 from '../../image/ocen.jpg'
 import imagee7 from '../../image/why-choose.jpg'
 import imagee8 from '../../image/download.jpg'
@@ -72,7 +72,7 @@ const Home = () => {
             <div className="homeaboutmain">
               {/* <div className='homeaboutfirst'> */}
               <div className="homeabouttextdiv">
-                <p>Galliard Freight Solutions Pvt.Ltd (GFS) is a glooming organization dealing in International Freight forwarding, LCL cargo consolidation including IMPORT and EXPORT, custom house broking, insurance services, packing and moving services, port handling, project movement , inventory management and other logistical solutions. We provide customized deals to our clients keeping in the frame the time, cost and services at the acme of priorities. We owe a team of dynamic professionals with a strong background in the logistics industry having experience of more than 07 years.</p>
+                <p>Trans Continental Freight Service (India) Private Limited is a dynamic organization specializing in comprehensive international freight forwarding. Our expertise spans LCL cargo consolidation, both import and export, custom house broking, insurance services, efficient packing and moving solutions, precise port handling, project logistics, inventory management, and a spectrum of other logistical services. We pride ourselves on offering tailored solutions that prioritize time, cost-effectiveness, and service excellence for our valued clients. With a dedicated team of seasoned professionals boasting over 7 years of experience in the logistics industry, we ensure unparalleled expertise and reliability in every aspect of our operations.</p>
                 <button className='homeaboutbutton'><Link to='/about' style={{ textDecoration: "none", color: "white" }}>Read More</Link></button>
               </div>
               {/* <div> */}
@@ -106,7 +106,7 @@ const Home = () => {
         </div>
       </section>
 
-     
+
 
 
 
@@ -138,26 +138,26 @@ const Home = () => {
         </div>
       </section> */}
 
-<section>
+      <section>
         <div className="wearebesthome">
+          <p className='besthomeheading'>We are <span style={{ color: "#003189" }}>Best At</span></p>
           <div className="besthomefirst">
-            <p className='besthomeheading'>We are <span style={{ color: "#003189" }}>Best At</span></p>
             <div className="bestchuldfirst">
               <div className="childchildfirst">
                 <i class="ri-globe-line"></i>
               </div>
               <div className="childchildsecond">
                 <p className='bestchiledheading'>Goods Tracking Support</p>
-                <p className='bestchildtext'>Tracking represents an additional layer of security to ensure goods reach their ... and support of Cargo and Shipment Tracking System</p>
+                <p className='bestchildtext'>Tracking represents an additional layer of security to ensure goods reach their ... and support of Cargo and Shipment Tracking System.</p>
               </div>
             </div>
             <div className="bestchuldfirst">
               <div className="childchildfirst">
-                <i class="ri-gas-station-line"></i>
+              <i class="ri-timer-line"></i>
               </div>
               <div className="childchildsecond">
-                <p className='bestchiledheading'>Goods Tracking Support</p>
-                <p className='bestchildtext'>Tracking represents an additional layer of security to ensure goods reach their ... and support of Cargo and Shipment Tracking System</p>
+                <p className='bestchiledheading'>On Time Delevery</p>
+                <p className='bestchildtext'>On-time delivery is vital, enhancing customer satisfaction, operational efficiency, and reputation by reliably fulfilling orders promptly and fostering repeat business.</p>
               </div>
             </div>
             <div className="bestchuldfirst">
@@ -165,12 +165,12 @@ const Home = () => {
                 <i class="ri-truck-line"></i>
               </div>
               <div className="childchildsecond">
-                <p className='bestchiledheading'>Goods Tracking Support</p>
-                <p className='bestchildtext'>Tracking represents an additional layer of security to ensure goods reach their ... and support of Cargo and Shipment Tracking System</p>
+                <p className='bestchiledheading'>Reaching Large Destinations</p>
+                <p className='bestchildtext'>Reaching large destinations involves meticulous planning, resource allocation, and coordination. Efficient logistics, robust infrastructure, and strategic route optimization are crucial for timely and successful deliveries.</p>
               </div>
             </div>
           </div>
-          <div className="besthomesecond">
+          {/* <div className="besthomesecond">
             <p className='besthomeheading' style={{ color: "white" }}>Quick Enquiry</p>
             <div className="bestchildsecond">
               <div className="childsecond">
@@ -187,7 +187,7 @@ const Home = () => {
                 <button className='buttonbesthome'>Submit</button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

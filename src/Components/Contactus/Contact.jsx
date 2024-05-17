@@ -19,7 +19,46 @@ const Contact = () => {
         </div>
       </section>
       <section>
-        <div className="servicescontectsection">
+        <div className="contact">
+          <div className="contactfirst">
+            <div className="officeadd">
+              <p>Head Office</p>
+            </div>
+            <div className="officelocation">
+              <p>13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
+                Yeongdeungpo-gu, Seoul, Republic of Korea.</p>
+            </div>
+            <div className="companyname">
+              <p>TRANS WORLD EXPRESS CO., LTD.</p>
+            </div>
+          </div>
+          <div className="contactfirst1">
+            <div className="officeadd">
+              <p>Affiliated Office In India</p>
+            </div>
+            <div className="officelocation">
+              <p>A-4, 1st Floor, Main Vasant Kunj Road
+                  (Opposite Jagannath Complex)
+                  Mahipalpur Chowk, New Delhi- 110037.</p>
+                <p>26 (Old No. 105), 2nd Floor, Armenian Street, Chennai – 600001</p>
+            </div>
+            <div className="companyname">
+              <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
+            </div>
+          </div>
+          <div className="contactfirst2">
+            <div className="officeadd">
+              <p>Affiliated Office in South Africa</p>
+            </div>
+            <div className="officelocation">
+              <p>358 Pretorius Street 0001, Pretoria, R.S.A.</p>
+            </div>
+            <div className="companyname">
+              <p>TCI LOGISTICS SOUTH AFRICA PTY.LTD.</p>
+            </div>
+          </div>
+        </div>
+        {/* <div className="servicescontectsection">
           <div className="homeabouthead">
             <p>Head <span style={{ color: "#003189" }}>Office  in Korea</span></p>
           </div>
@@ -42,14 +81,6 @@ const Contact = () => {
                 <p>TRANS WORLD EXPRESS CO., LTD.</p>
               </div>
             </div>
-            {/* <div className="location">
-              <div>
-                <p className='locationheading'>Qr Code</p>
-              </div>
-              <div>
-
-              </div>
-            </div> */}
           </div>
           <div className="homeabouthead mt-5">
             <p>Affiliated Companies<span style={{ color: "#003189" }}>/Offices in India </span></p>
@@ -73,14 +104,6 @@ const Contact = () => {
                 <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
               </div>
             </div>
-            {/* <div className="location">
-              <div>
-                <p className='locationheading'>Qr Code</p>
-              </div>
-              <div>
-
-              </div>
-            </div> */}
           </div>
           <div className="conatctinfo mt-2">
             <div className="location">
@@ -99,13 +122,6 @@ const Contact = () => {
                 <p>TRANS CONTINENTAL FREIGHT SERVICE INDIA PVT. LTD</p>
               </div>
             </div>
-            {/* <div className="location">
-              <div>
-                <p className='locationheading'>Qr Code</p>
-              </div>
-              <div>
-              </div>
-            </div> */}
           </div>
           <div className="homeabouthead mt-5">
             <p>Affiliated Companies<span style={{ color: "#003189" }}>Office in South Africa </span></p>
@@ -127,17 +143,8 @@ const Contact = () => {
                 <p>TCI LOGISTICS SOUTH AFRICA PTY., LTD.</p>
               </div>
             </div>
-            {/* <div className="location">
-              <div>
-                <p className='locationheading'>Qr Code</p>
-              </div>
-              <div>
-
-              </div>
-            </div> */}
           </div>
-          {/* </div> */}
-        </div>
+        </div> */}
       </section>
     </>
   )

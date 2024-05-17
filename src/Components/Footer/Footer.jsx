@@ -11,25 +11,26 @@ const Footer = () => {
           <div className="footermain">
             <div className="first">
               {/* <p className='footerheading'>SANJIVAN ANUSHANDHAN</p> */}
-              <img src={imagee1} alt="" style={{height:50}}/>
+              <img src={imagee1} alt="" style={{ height: 50 }} />
               <p className='fotertext'>Your one-stop shop for authentic Ayurvedic medicines and products, delivering the ancient wisdom of India's natural healing tradition to your doorstep.</p>
             </div>
             <div className="second">
               <p className='footerheading'>Quick Links</p>
-              <div>
+             <div className="linksdiv">
+             <div>
                 <p className='fotertextlink'><Link to='/'>Home</Link></p>
                 <p className='fotertextlink'><Link to='/about'>About Us</Link></p>
-                </div>
-                <div>
                 <p className='fotertextlink'><Link to='/'>Services</Link></p>
+                <p className='fotertextlink'><Link to='/'>Contact Us</Link></p>
+              </div>
+              <div>
                 <p className='fotertextlink'><Link to='/'>Achievements</Link></p>
-                </div>
-                <div>
                 <p className='fotertextlink'><Link to='/'>Import Process</Link></p>
                 <p className='fotertextlink'><Link to='/'>Export Process</Link></p>
-            </div>
-                <p className='fotertextlink'><Link to='/'>Contact Us</Link></p>
-              
+              </div>
+             </div>
+
+
             </div>
             {/* <div className="third">
                             <p className='footerheading'>LEGAL INFORMATION</p>
