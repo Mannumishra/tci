@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import imagee1 from '../../image/sliderimage2.jpg'
 import imagee2 from '../../image/sliderimage3.jpg'
 import imagee3 from '../../image/slider-5.jpg'
@@ -12,10 +12,16 @@ import certificate1 from '../../image/iso-cert.jpg'
 import certificate2 from '../../image/mto-cert.jpg'
 import certificate3 from '../../image/roc-cert.jpg'
 import "./Home.css"
-import { Link } from 'react-router-dom'
+import { Link, useFetcher } from 'react-router-dom'
 import ServiceArea from '../Servicearea/ServiceArea'
 import ServiceHome from '../ServiceHome/ServiceHome'
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }, [])
   return (
     <>
 
@@ -153,7 +159,7 @@ const Home = () => {
             </div>
             <div className="bestchuldfirst">
               <div className="childchildfirst">
-              <i class="ri-timer-line"></i>
+                <i class="ri-timer-line"></i>
               </div>
               <div className="childchildsecond">
                 <p className='bestchiledheading'>On Time Delevery</p>

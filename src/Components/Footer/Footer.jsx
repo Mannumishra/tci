@@ -16,19 +16,19 @@ const Footer = () => {
             </div>
             <div className="second">
               <p className='footerheading'>Quick Links</p>
-             <div className="linksdiv">
-             <div>
-                <p className='fotertextlink'><Link to='/'>Home</Link></p>
-                <p className='fotertextlink'><Link to='/about'>About Us</Link></p>
-                <p className='fotertextlink'><Link to='/'>Services</Link></p>
-                <p className='fotertextlink'><Link to='/'>Contact Us</Link></p>
+              <div className="linksdiv">
+                <div>
+                  <p className='fotertextlink'><Link to='/'>Home</Link></p>
+                  <p className='fotertextlink'><Link to='/about'>About Us</Link></p>
+                  <p className='fotertextlink'><Link to='/service'>Services</Link></p>
+                  <p className='fotertextlink'><Link to='/contact'>Contact Us</Link></p>
+                </div>
+                <div>
+                  <p className='fotertextlink'><Link to='/achivment'>Achievements</Link></p>
+                  <p className='fotertextlink'><Link to='/imp&exp'>Import Process</Link></p>
+                  <p className='fotertextlink'><Link to='/imp&exp'>Export Process</Link></p>
+                </div>
               </div>
-              <div>
-                <p className='fotertextlink'><Link to='/'>Achievements</Link></p>
-                <p className='fotertextlink'><Link to='/'>Import Process</Link></p>
-                <p className='fotertextlink'><Link to='/'>Export Process</Link></p>
-              </div>
-             </div>
 
 
             </div>

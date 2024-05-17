@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Ourprocess.css'
 import airimport from '../../image/airimport.jpg'
 import airexport from '../../image/airexport.jpg'
 import seeimport from '../../image/seeimport.jpg'
 import seeexport from '../../image/seeexport.jpg'
 const Ourprocess = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }, [])
   return (
     <>
       <section>
