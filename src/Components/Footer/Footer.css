@@ -1,4 +1,4 @@
-footer{
+/* footer{
     width: 100%;
     background-image: url(../../image/contact.jpg);
     background-repeat: no-repeat;
@@ -57,6 +57,83 @@ footer .footer-container{
         gap: 20px;
     }
     .footerboxfirst{
+        width: 100%;
+    }
+} */
+
+
+
+.footer{
+    height: auto;
+    /* margin-top: -10%; */
+    background-color: #1A1A1A;
+    color: white;
+}
+.footerheading{
+    font-size: 18px;
+    font-weight: 700;
+}
+.fotertext{
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 10px; */
+}
+.fotertextlink{
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 1px; */
+}
+.footermain{
+    padding: 60px 90px;
+    display: flex;
+    justify-content:space-between;
+    gap: 60px;
+}
+.first{
+    width: 32%;
+}
+.second{
+    width: 32%;
+}
+/* .third{
+    width: 32%;
+} */
+.four{
+    width: 32%;
+}
+.iconset{
+    display: flex;
+    gap:10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.fotertextlink a{
+    text-decoration: none;
+    color: white;
+}
+.second div{
+    display: flex;
+    gap: 40px;
+/* justify-content:; */
+text-align: justify;
+}
+@media(max-width:768px){
+    .footermain{
+        padding: 10px 10px;
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .four{
         width: 100%;
     }
 }

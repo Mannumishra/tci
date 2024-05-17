@@ -4,7 +4,7 @@ import imagee2 from '../../image/slider-2.jpg'
 import imagee3 from '../../image/slider-3.jpg'
 import imagee4 from '../../image/slider-4.jpg'
 import imagee5 from '../../image/slider-5.jpg'
-import imagee6 from '../../image/mission.jpg'
+import imagee6 from '../../image/ocen.jpg'
 import imagee7 from '../../image/why-choose.jpg'
 import imagee8 from '../../image/download.jpg'
 import certificate from '../../image/wca-cert.jpg'
@@ -76,7 +76,10 @@ const Home = () => {
                 <button className='homeaboutbutton'><Link to='/about' style={{ textDecoration: "none", color: "white" }}>Read More</Link></button>
               </div>
               {/* <div> */}
-                <div className="homeaboutimage1">
+              <div className='homeaboutimage'>
+                <Link to='/about'> <img src={imagee6} alt="" /></Link>
+              </div>
+              {/* <div className="homeaboutimage1">
                   <img src={imagee6} alt="" className='aboutimage' />
                   <div className='imagetextdiv'>
                     <p className='imgtext'>Our Mission</p>
@@ -96,7 +99,7 @@ const Home = () => {
                     <p className='imgtext'>Company Presentation</p>
                     <button className='buttonabout'><Link to='/about' style={{ textDecoration: "none", color: "black" }}>Read More</Link></button>
                   </div>
-                </div>
+                </div> */}
               {/* </div> */}
             </div>
           </div>

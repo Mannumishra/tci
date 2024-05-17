@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import './Contact.css'
 const Contact = () => {
-  useEffect(()=>{
+  useEffect(() => {
     window.scrollTo({
-      top:0,
-      behavior:"smooth"
+      top: 0,
+      behavior: "smooth"
     })
   })
   return (
@@ -70,7 +70,7 @@ const Contact = () => {
                 <p className='locationheading'>Company Name</p>
               </div>
               <div className='locationaddress'>
-              <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
+                <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
               </div>
             </div>
             {/* <div className="location">
@@ -96,7 +96,7 @@ const Contact = () => {
                 <p className='locationheading'>Company Name</p>
               </div>
               <div className='locationaddress'>
-              <p>TRANS CONTINENTAL FREIGHT SERVICE INDIA PVT. LTD</p>
+                <p>TRANS CONTINENTAL FREIGHT SERVICE INDIA PVT. LTD</p>
               </div>
             </div>
             {/* <div className="location">
@@ -124,7 +124,7 @@ const Contact = () => {
                 <p className='locationheading'>Company Name</p>
               </div>
               <div className='locationaddress'>
-              <p>TCI LOGISTICS SOUTH AFRICA PTY., LTD.</p>
+                <p>TCI LOGISTICS SOUTH AFRICA PTY., LTD.</p>
               </div>
             </div>
             {/* <div className="location">

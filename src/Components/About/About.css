@@ -22,7 +22,7 @@
 }
 
 .homeabouttextdiv {
-    width: 40%;
+    width: 48%;
     padding: 20px;
     text-align: justify;
     display: flex;
@@ -31,28 +31,32 @@
     align-items: center;
 }
 
-.homeaboutimage1 {
-    width: 19%;
+.homeaboutimage{
+    width: 51%;
     height: 300px;
     position: relative;
 }
 
-.homeaboutimage2 {
+.homeaboutimage img{
+    height: auto;
+    width: 100%;
+}
+/* .homeaboutimage2 {
     width: 19%;
     height: 300px;
     position: relative;
-}
+} */
 
 .homeabouthead {
     font: 500 39px / 1.2em 'Titillium Web', sans-serif;
     color: #4E4E4E;
 }
 
-.homeaboutimage3 {
+/* .homeaboutimage3 {
     width: 19%;
     height: 300px;
     position: relative;
-}
+} */
 
 .aboutimage {
     height: 300px;

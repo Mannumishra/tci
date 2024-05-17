@@ -1,54 +1,57 @@
 import React from 'react'
 import "./Footer.css"
-import imagee1 from '../../image/contact.jpg'
+import { Link } from 'react-router-dom'
+import imagee1 from '../../image/logo.jpg'
 const Footer = () => {
   return (
     <>
 
-      <footer>
-        <div className="footer-container">
-          <div className="footerheanding">
-            Get In Touch
-          </div>
-          <div className="footerbox">
-            <div className="footerboxfirst">
-              <i class="ri-map-pin-line"></i>
-              <p>Location</p>
-              <p className='footertext'>
-                A-4, 1st Floor, Main Vasant Kunj Road
-                (Opposite Jagannath Complex)
-                Mahipalpur Chowk, New Delhi- 110037
-              </p>
+      <section className='footerset'>
+        <div className="footer">
+          <div className="footermain">
+            <div className="first">
+              {/* <p className='footerheading'>SANJIVAN ANUSHANDHAN</p> */}
+              <img src={imagee1} alt="" style={{height:50}}/>
+              <p className='fotertext'>Your one-stop shop for authentic Ayurvedic medicines and products, delivering the ancient wisdom of India's natural healing tradition to your doorstep.</p>
             </div>
-            <div className="footerboxfirst">
-              <i class="ri-mail-unread-line"></i>
-              <p>Email</p>
-              <p className='footertext'>Pricing@tciindia.co.in
-              sanjiv@tciindia.co.in
-              rinku@tciindia.co.in
-              sales@tciindia.co.in
-              prakash@tciindia.co.in
-              </p>
+            <div className="second">
+              <p className='footerheading'>Quick Links</p>
+              <div>
+                <p className='fotertextlink'><Link to='/'>Home</Link></p>
+                <p className='fotertextlink'><Link to='/about'>About Us</Link></p>
+                </div>
+                <div>
+                <p className='fotertextlink'><Link to='/'>Services</Link></p>
+                <p className='fotertextlink'><Link to='/'>Achievements</Link></p>
+                </div>
+                <div>
+                <p className='fotertextlink'><Link to='/'>Import Process</Link></p>
+                <p className='fotertextlink'><Link to='/'>Export Process</Link></p>
             </div>
-            <div className="footerboxfirst">
-              <i class="ri-customer-service-line"></i>
-              <p>Contact</p>
-              <p className='footertext'>
-                +91 7906176068 <br /><br /><br /><br /><br />
-              </p>
+                <p className='fotertextlink'><Link to='/'>Contact Us</Link></p>
+              
             </div>
-            <div className="footerboxfirst">
-              <i class="ri-user-follow-fill"></i>
-              <p>Location</p>
-              <p className='footertext'>
-                A-4, 1st Floor, Main Vasant Kunj Roadc
-                (Opposite Jagannath Complex)
-                Mahipalpur Chowk, New Delhi- 110037
-              </p>
+            {/* <div className="third">
+                            <p className='footerheading'>LEGAL INFORMATION</p>
+                            <p className='fotertext'>Privacy Policy</p>
+                            <p className='fotertext'>Refund Policy</p>
+                            <p className='fotertext'>Terms & conditions</p>
+                            <p className='fotertext'>Shipping & Delivery Policy</p>
+                        </div> */}
+            <div className="four">
+              <p className='footerheading'>FOLLOW US</p>
+              <p className='fotertext'>Follow and discover the time-tested secrets of TCI with us!</p>
+              <div className="iconset">
+                <Link style={{ textDecoration: "none", color: "#3b5998" }}> <i class="ri-facebook-circle-fill"></i></Link>
+                <Link style={{ textDecoration: "none", color: "#ee2a7b" }}> <i class="ri-instagram-line"></i></Link>
+                <Link style={{ textDecoration: "none", color: "#FF0000" }}> <i class="ri-youtube-line"></i></Link>
+                <Link style={{ textDecoration: "none", color: "#0A66C2" }}><i class="ri-linkedin-box-fill"></i></Link>
+                <Link style={{ textDecoration: "none", color: " #1DA1F2" }}><i class="ri-twitter-line"></i></Link>
+              </div>
             </div>
           </div>
         </div>
-      </footer>
+      </section>
     </>
   )
 }
