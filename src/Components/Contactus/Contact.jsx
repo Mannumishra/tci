@@ -38,9 +38,9 @@ const Contact = () => {
             </div>
             <div className="officelocation">
               <p>A-4, 1st Floor, Main Vasant Kunj Road
-                  (Opposite Jagannath Complex)
-                  Mahipalpur Chowk, New Delhi- 110037.</p>
-                <p>26 (Old No. 105), 2nd Floor, Armenian Street, Chennai – 600001</p>
+                (Opposite Jagannath Complex)
+                Mahipalpur Chowk, New Delhi- 110037.</p>
+              <p>26 (Old No. 105), 2nd Floor, Armenian Street, Chennai – 600001</p>
             </div>
             <div className="companyname">
               <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
@@ -58,93 +58,48 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        {/* <div className="servicescontectsection">
-          <div className="homeabouthead">
-            <p>Head <span style={{ color: "#003189" }}>Office  in Korea</span></p>
-          </div>
-          <div className="conatctinfo">
-            <div className="location">
-              <div>
-                <p className='locationheading'> Head Office Location</p>
+      </section>
+      {/* <hr /> */}
+      <section >
+        <div className="contactinfo">
+            <div className="contactinfofirst">
+              <div className="contactadd">
+                <p>Contact Info</p>
               </div>
-              <div className='locationaddress'>
-                <p>13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
-                  Yeongdeungpo-gu, Seoul, Republic of Korea
-                </p>
+              <div className="officelocation">
+                <p>Call US : <span><a href="tel:+917906176068">+91 7906176068</a></span></p>
+                <p>Email : <span><a href="mailto:Pricing@tciindia.co.in,sanjiv@tciindia.co.in,rinku@tciindia.co.in,sales@tciindia.co.in,prakash@tciindia.co.in">Pricing@tciindia.co.in , sanjiv@tciindia.co.in , rinku@tciindia.co.in , sales@tciindia.co.in , prakash@tciindia.co.in</a></span></p>
               </div>
             </div>
-            <div className="location">
-              <div>
-                <p className='locationheading'>Company Name</p>
+            <div className="getintouch">
+              <div className="contactadd ">
+                <p className='text-center'>Any Query please leave message </p>
               </div>
-              <div className='locationaddress'>
-                <p>TRANS WORLD EXPRESS CO., LTD.</p>
-              </div>
-            </div>
-          </div>
-          <div className="homeabouthead mt-5">
-            <p>Affiliated Companies<span style={{ color: "#003189" }}>/Offices in India </span></p>
-          </div>
-          <div className="conatctinfo">
-            <div className="location">
-              <div>
-                <p className='locationheading'>Our Location Delhi</p>
-              </div>
-              <div className='locationaddress'>
-                <p>A-4, 1st Floor, Main Vasant Kunj Road
-                  (Opposite Jagannath Complex)
-                  Mahipalpur Chowk, New Delhi- 110037</p>
-              </div>
-            </div>
-            <div className="location">
-              <div>
-                <p className='locationheading'>Company Name</p>
-              </div>
-              <div className='locationaddress'>
-                <p>TRANS CONTINENTAL FREIGHT SERVICE (INDIA) PVT. LTD</p>
+              <div className="officelocation">
+                <form action="">
+                  <div class="mb-3">
+                    <label className="form-label">Name</label>
+                    <input type="email" class="form-control" placeholder="Name" />
+                  </div>
+                  <div class="mb-3">
+                    <label className="form-label">Email address</label>
+                    <input type="email" class="form-control" placeholder="Email Address" />
+                  </div>
+                  <div class="mb-3">
+                    <label className="form-label">Phone Number</label>
+                    <input type="email" class="form-control" placeholder="Phone Number" />
+                  </div>
+                  <div class="mb-3">
+                    <label className="form-label">Message</label>
+                    <textarea name="" id="" rows={5} placeholder='Meaasege' className='form-control'></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button className='btn btn-dark'>Send Message</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
-          <div className="conatctinfo mt-2">
-            <div className="location">
-              <div>
-                <p className='locationheading'>Our Location Chennai</p>
-              </div>
-              <div className='locationaddress'>
-                <p>26 (Old No. 105), 2nd Floor, Armenian Street, Chennai – 600 001</p>
-              </div>
-            </div>
-            <div className="location">
-              <div>
-                <p className='locationheading'>Company Name</p>
-              </div>
-              <div className='locationaddress'>
-                <p>TRANS CONTINENTAL FREIGHT SERVICE INDIA PVT. LTD</p>
-              </div>
-            </div>
-          </div>
-          <div className="homeabouthead mt-5">
-            <p>Affiliated Companies<span style={{ color: "#003189" }}>Office in South Africa </span></p>
-          </div>
-          <div className="conatctinfo">
-            <div className="location">
-              <div>
-                <p className='locationheading'>Our Location</p>
-              </div>
-              <div className='locationaddress'>
-                <p>358 Pretorius Street 0001, Pretoria, R.S.A</p>
-              </div>
-            </div>
-            <div className="location">
-              <div>
-                <p className='locationheading'>Company Name</p>
-              </div>
-              <div className='locationaddress'>
-                <p>TCI LOGISTICS SOUTH AFRICA PTY., LTD.</p>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </section>
     </>
   )
