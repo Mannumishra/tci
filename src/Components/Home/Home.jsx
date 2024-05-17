@@ -106,7 +106,39 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+     
+
+
+
+      <ServiceHome />
+
+
+      <ServiceArea />
+
+
+
+      {/* <section>
+        <div className="oursertificates">
+          <div className="ourcerficatediv">
+            <img src={certificate} alt="" className='ourcertifateimage' />
+            <p className='certificatename'>WCA CERTIFIED</p>
+          </div>
+          <div className="ourcerficatediv">
+            <img src={certificate1} alt="" className='ourcertifateimage' />
+            <p className='certificatename'>ISO CERTIFIED</p>
+          </div>
+          <div className="ourcerficatediv">
+            <img src={certificate2} alt="" className='ourcertifateimage' />
+            <p className='certificatename'>MTO CERTIFIED</p>
+          </div>
+          <div className="ourcerficatediv">
+            <img src={certificate3} alt="" className='ourcertifateimage' />
+            <p className='certificatename'>ROC CERTIFIED</p>
+          </div>
+        </div>
+      </section> */}
+
+<section>
         <div className="wearebesthome">
           <div className="besthomefirst">
             <p className='besthomeheading'>We are <span style={{ color: "#003189" }}>Best At</span></p>
@@ -158,38 +190,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-
-
-      <ServiceHome />
-
-
-      <ServiceArea />
-
-
-
-      {/* <section>
-        <div className="oursertificates">
-          <div className="ourcerficatediv">
-            <img src={certificate} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>WCA CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate1} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>ISO CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate2} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>MTO CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate3} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>ROC CERTIFIED</p>
-          </div>
-        </div>
-      </section> */}
-
-
 
     </>
   )
