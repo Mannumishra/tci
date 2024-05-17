@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="first">
               {/* <p className='footerheading'>SANJIVAN ANUSHANDHAN</p> */}
               <img src={imagee1} alt="" style={{ height: 50 }} />
-              <p className='fotertext'>Your one-stop shop for authentic Ayurvedic medicines and products, delivering the ancient wisdom of India's natural healing tradition to your doorstep.</p>
+              <p className='fotertext'>Trans Continental Freight Service (India) Private Limited is a leading organization specializing in a wide range of logistical solutions.</p>
             </div>
             <div className="second">
               <p className='footerheading'>Quick Links</p>
