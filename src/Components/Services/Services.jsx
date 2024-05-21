@@ -25,7 +25,7 @@ const Services = () => {
             <p>Services and Solutions <span style={{ color: "#003189" }}>Built Around You </span></p>
           </div>
           <div>
-            <p className='abouttext'>Galliard Freight Solutions is a talented Company providing Customized End-End services covering the entire range of Supply Chain Management spectrum. Organizing your business can be difficult enough without having to worry about a host of transportation problems. At Galliard Freight Solutions , we offer a variety of services to meet your every need.</p>
+            <p className='abouttext'>Trans Continental Freight Service (India) Private Limited is a talented company providing customized end-to-end services covering the entire range of the supply chain management spectrum. Organizing your business can be difficult enough without having to worry about a host of transportation problems. At Trans Continental Freight Service (India) Private Limited, we offer a variety of services to meet your every need.</p>
           </div>
         </div>
       </section>
