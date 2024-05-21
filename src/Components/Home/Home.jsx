@@ -111,7 +111,7 @@ const Home = () => {
                 <i class="ri-timer-line"></i>
               </div>
               <div className="childchildsecond">
-                <p className='bestchiledheading'>On Time Delevery</p>
+                <p className='bestchiledheading'>On Time Delivery</p>
                 <p className='bestchildtext'>On-time delivery is vital, enhancing customer satisfaction, operational efficiency, and reputation by reliably fulfilling orders promptly and fostering repeat business.</p>
               </div>
             </div>
