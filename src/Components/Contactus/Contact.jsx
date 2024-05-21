@@ -67,8 +67,11 @@ const Contact = () => {
                 <p>Contact Info</p>
               </div>
               <div className="officelocation">
-                <p>Call US : <span><a href="tel:+917906176068">+91 7906176068</a></span></p>
-                <p>Email : <span><a href="mailto:Pricing@tciindia.co.in,sanjiv@tciindia.co.in,rinku@tciindia.co.in,sales@tciindia.co.in,prakash@tciindia.co.in">Pricing@tciindia.co.in , sanjiv@tciindia.co.in , rinku@tciindia.co.in , sales@tciindia.co.in , prakash@tciindia.co.in</a></span></p>
+                <p>Call Us : <span><a href="tel:+9101140764076">+91 01140764076 </a></span></p>
+                <p>Call Us (Air Import) : <span><a href="tel:+919555686520">+91 9555686520 </a></span></p>
+                <p>Call Us (Sea Import) : <span><a href="tel:+919540603266">+91 9540603266 </a></span></p>
+                <p>Call Us (Air & Sea Export)  : <span><a href="tel:+919599297900">+91 9599297900 </a></span></p>
+                <p>Email : <span><a href="mailto:Pricing@tciindia.co.in,sanjiv@tciindia.co.in,rinku@tciindia.co.in,sales@tciindia.co.in,prakash@tciindia.co.in,export@tciindia.co.in">Pricing@tciindia.co.in , sanjiv@tciindia.co.in , rinku@tciindia.co.in , sales@tciindia.co.in , prakash@tciindia.co.in , export@tciindia.co.in</a></span></p>
               </div>
             </div>
             <div className="getintouch">
