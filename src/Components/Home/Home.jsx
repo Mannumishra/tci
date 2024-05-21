@@ -30,8 +30,8 @@ const Home = () => {
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> */}
+            {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> */}
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
@@ -43,14 +43,14 @@ const Home = () => {
               <img src={imagee2} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
-            <div class="carousel-item banareimagediv">
+            {/* <div class="carousel-item banareimagediv">
               <img src={imagee3} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
-            </div>
-            <div class="carousel-item banareimagediv">
+            </div> */}
+            {/* <div class="carousel-item banareimagediv">
               <img src={imagee4} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
-            </div>
+            </div> */}
             <div class="carousel-item banareimagediv">
               <img src={imagee5} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
