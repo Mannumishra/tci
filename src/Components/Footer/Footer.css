@@ -73,6 +73,7 @@ footer .footer-container{
 .footerheading {
     font-size: 18px;
     font-weight: 700;
+    color: orange;
 }
 
 .fotertext {
@@ -88,25 +89,25 @@ footer .footer-container{
 }
 
 .footermain {
-    padding: 60px 90px;
+    padding: 60px 20px;
     display: flex;
     justify-content: space-between;
     gap: 60px;
 }
 
 .first {
-    width: 32%;
+    width: 25%;
 }
 
 .second {
-    width: 32%;
+    width: 20%;
 }
 
-/* .third{
-    width: 32%;
-} */
+ .third{
+    width: 30%;
+} 
 .four {
-    width: 32%;
+    width: 25%;
 }
 
 .iconset {
@@ -124,7 +125,7 @@ footer .footer-container{
 .linksdiv{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
     /* justify-content:; */
     text-align: justify;
 }
