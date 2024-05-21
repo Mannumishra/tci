@@ -86,68 +86,16 @@ const Home = () => {
               <div className='homeaboutimage'>
                 <Link to='/about'> <img src={imagee6} alt="" /></Link>
               </div>
-              {/* <div className="homeaboutimage1">
-                  <img src={imagee6} alt="" className='aboutimage' />
-                  <div className='imagetextdiv'>
-                    <p className='imgtext'>Our Mission</p>
-                    <button className='buttonabout'><Link to='/about' style={{ textDecoration: "none", color: "black" }}>Read More</Link></button>
-                  </div>
-                </div>
-                <div className="homeaboutimage2">
-                  <img src={imagee7} alt="" className='aboutimage' />
-                  <div className='imagetextdiv'>
-                    <p className='imgtext'>Why Choose Us</p>
-                    <button className='buttonabout'><Link to='/about' style={{ textDecoration: "none", color: "black" }}>Read More</Link></button>
-                  </div>
-                </div>
-                <div className="homeaboutimage3">
-                  <img src={imagee8} alt="" className='aboutimage' />
-                  <div className='imagetextdiv'>
-                    <p className='imgtext'>Company Presentation</p>
-                    <button className='buttonabout'><Link to='/about' style={{ textDecoration: "none", color: "black" }}>Read More</Link></button>
-                  </div>
-                </div> */}
               {/* </div> */}
             </div>
           </div>
         </div>
       </section>
-
-
-
-
-
       <ServiceHome />
-
-
       <ServiceArea />
-
-
-
-      {/* <section>
-        <div className="oursertificates">
-          <div className="ourcerficatediv">
-            <img src={certificate} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>WCA CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate1} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>ISO CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate2} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>MTO CERTIFIED</p>
-          </div>
-          <div className="ourcerficatediv">
-            <img src={certificate3} alt="" className='ourcertifateimage' />
-            <p className='certificatename'>ROC CERTIFIED</p>
-          </div>
-        </div>
-      </section> */}
-
       <section>
         <div className="wearebesthome">
-          <p className='besthomeheading'>We are <span style={{ color: "#003189" }}>Best At</span></p>
+          <p className='besthomeheading'>We are <span style={{ color: "#003189" }}>Best at</span></p>
           <div className="besthomefirst">
             <div className="bestchuldfirst">
               <div className="childchildfirst">
@@ -177,24 +125,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* <div className="besthomesecond">
-            <p className='besthomeheading' style={{ color: "white" }}>Quick Enquiry</p>
-            <div className="bestchildsecond">
-              <div className="childsecond">
-                <input type="text" name="" id="" placeholder='First Name' />
-                <input type="text" name="" id="" placeholder='Last Name' />
-                <input type="text" name="" id="" placeholder='Telephone Number' />
-                <select name="" id="">
-                  <option value="Seletct Type">Select Type</option>
-                </select>
-              </div>
-              <div className="chilchildsecond">
-                <input type="text" name="" id="" placeholder='Your Email Address' />
-                <textarea name="" id="" placeholder='write message here'></textarea>
-                <button className='buttonbesthome'>Submit</button>
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
 

@@ -16,7 +16,7 @@ const OurAchivment = () => {
                 </div>
                 <div class="timeline">
                     <div class="containertimeline left_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Established</div>
                         {/* <img src="/images/10.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1987 Established Trans Continental Inc. (TCI)</p>
@@ -27,7 +27,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Acquired license Ocean </div>
                         {/* <img src="/images/arrow down.png" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1989 Acquired license of handling Ocean Freight.</p>
@@ -38,7 +38,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Acquired license Air</div>
                         {/* <img src="/images/12.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1990 Acquired license of handling Air Freight.(TCI)</p>
@@ -49,7 +49,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}> International Trade</div>
                         {/* <img src="/images/13.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1997 Acquired International Trade Management License.</p>
@@ -60,7 +60,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}> IATA agency.</div>
                         {/* <img src="/images/14.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1997 Acquired IATA agency.</p>
@@ -71,7 +71,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>KIFFA Member</div>
                         {/* <img src="/images/17.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>1997 Member KIFFA (Korea International Freight Forwarders Association).</p>
@@ -83,7 +83,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Established Shanghai </div>
                         {/* <img src="/images/18.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2003 Established Shanghai Representative office.</p>
@@ -94,7 +94,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Established TCI</div>
                         {/* <img src="/images/19.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2005 Established Trans Continental Freight Service (India) PVT. LTD.</p>
@@ -105,7 +105,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}> Established South Africa </div>
                         {/* <img src="/images/2.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2010 APR. TCI Logistics South Africa PTY.,LTD – Acquired License.</p>
@@ -116,7 +116,7 @@ const OurAchivment = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        {/* <div className='namemannu' style={{color:"wheat"}}>Mannu</div> */}
+                        <div className='namemannu' style={{color:"white"}}>Company Name Change</div>
                         {/* <img src="/images/1.3 pink.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2016 NOV. Changed the name of the parent company – Trans World Express Co., Ltd.</p>
