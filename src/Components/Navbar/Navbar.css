@@ -135,7 +135,8 @@
         color: white;
         left: -178%;
         padding: 10px;
-        top: 100%;
+        top: 61px;
+        z-index: 999;
         transition: all 0.9s ease;
         overflow-y: auto; /* Enable vertical scrolling */
     }
