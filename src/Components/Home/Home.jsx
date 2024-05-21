@@ -43,6 +43,10 @@ const Home = () => {
               <img src={imagee2} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div>
+            <div class="carousel-item banareimagediv">
+              <img src={imagee5} class="d-block w-100" alt="..." />
+              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
+            </div>
             {/* <div class="carousel-item banareimagediv">
               <img src={imagee3} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
@@ -51,10 +55,7 @@ const Home = () => {
               <img src={imagee4} class="d-block w-100" alt="..." />
               <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
             </div> */}
-            <div class="carousel-item banareimagediv">
-              <img src={imagee5} class="d-block w-100" alt="..." />
-              <div className='banaretext'>GET IN TOUCH! WE'RE ALWAYS READY TO ANSWER</div>
-            </div>
+          
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

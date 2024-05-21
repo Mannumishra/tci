@@ -18,7 +18,9 @@
     /* gap: 30px; */
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    color: #A5B1BB;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .navbarmain {
