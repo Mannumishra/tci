@@ -94,7 +94,7 @@ const Contact = () => {
                   </div>
                   <div class="mb-3">
                     <label className="form-label">Message</label>
-                    <textarea name="" id="" rows={5} placeholder='Meaasege' className='form-control'></textarea>
+                    <textarea name="" id="" rows={5} placeholder='Message' className='form-control'></textarea>
                   </div>
                   <div class="mb-3">
                     <button className='btn btn-dark'>Send Message</button>

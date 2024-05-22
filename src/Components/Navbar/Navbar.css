@@ -168,10 +168,11 @@
         display: flex;
         flex-wrap: wrap;
         gap:0px;
-        padding: 1px 24px;
-        /* gap: 30px; */
+        padding: 1px 11px;
+        gap: 5px; 
         justify-content: space-between;
         align-items: center;
         color: white;
+        font-size: 9px;
     }
 }
