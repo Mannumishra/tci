@@ -21,7 +21,7 @@ const Navbar = () => {
           <div><i class="ri-time-line remixicon"></i>  09:30 AM - 06:30 PM - Monday to Friday and 09:30 AM - 02:00 PM -Saturday</div>
           <div className='' style={{ display: "flex", gap: 20 }}>
             <div><img src={india} alt="" style={{ height: 22 }} />  INDIA</div>
-            <div><img src={koriya} alt="" style={{ height: 30 }} />KOREA</div>
+            <div><img src={koriya} alt="" style={{ height: 28 }}/>KOREA</div>
           </div>
         </div>
         <div className="navbarmain">
