@@ -18,7 +18,7 @@ const Navbar = () => {
       <section>
         <div className='navbarfixed'>
           <div><i class="ri-phone-line remixicon" ></i>011 4076 4076</div>
-          <div><i class="ri-time-line remixicon"></i>  09:30 AM - 06:30 PM - Monday to Friday and 09:30 AM - 02:00 PM -Saturday</div>
+          <div><i class="ri-time-line remixicon"></i>  09:30 AM - 06:30 PM - Monday to Friday and 09:30 AM - 02:00 PM - Saturday</div>
           <div className='' style={{ display: "flex", gap: 20 }}>
             <div><img src={india} alt="" style={{ height: 22 }} />  INDIA</div>
             <div><img src={koriya} alt="" style={{ height: 28 }}/>KOREA</div>
