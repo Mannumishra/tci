@@ -126,9 +126,9 @@
 
 .containertimeline .namemannu {
     height: 50px;
-    width: 200px;
+    width: 220px;
     position: absolute;
-    right: -190px;
+    right: -220px;
     top: 30px;
     z-index: 10;
     background-color: #183650;
@@ -139,7 +139,7 @@
 }
 
 .right_container .namemannu {
-    left: -190px;
+    left: -220px;
 }
 
 .timeline::after {
@@ -237,7 +237,7 @@
         margin-top:10px;
     }
     .containertimeline .namemannu {
-        right: 148px;
+        right: 133px;
         top: -52px;
     }
     .right_container .namemannu {
