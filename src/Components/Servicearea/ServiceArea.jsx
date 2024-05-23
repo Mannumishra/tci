@@ -11,7 +11,7 @@ const ServiceArea = () => {
     <>
       <section>
         <div className="serviceareaheadingmain">
-          <p>Our Service<span style={{ color: "#003189" }}> Area</span></p>
+          <p>Our Service<span style={{ color: "#003189" }}> Areas</span></p>
         </div>
         <hr style={{ width: "80%", marginLeft: "5%" }} />
         <div className="serviceareadiv">
