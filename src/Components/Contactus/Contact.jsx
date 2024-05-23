@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="contact">
           <div className="contactfirst">
             <div className="officeadd">
-              <p>Head Office</p>
+              <p>Head Office in Korea</p>
             </div>
             <div className="officelocation">
               <p>13-B26 & 205, Acrotower Square 10, Gukhoe-daero 54-gil,
@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
           <div className="contactfirst1">
             <div className="officeadd">
-              <p>Affiliated Office In India</p>
+              <p>Affiliated Office in India</p>
             </div>
             <div className="officelocation">
               <p>A-4, 1st Floor, Main Vasant Kunj Road
