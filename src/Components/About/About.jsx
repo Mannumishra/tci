@@ -110,7 +110,7 @@ const About = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        <div className='namemannu' style={{color:"white"}}>Established Shanghai </div>
+                        <div className='namemannu' style={{color:"white"}}>Established TCI (Shanghai) </div>
                         {/* <img src="/images/18.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2003 Established Shanghai Representative office.</p>
@@ -121,7 +121,7 @@ const About = () => {
                         </div>
                     </div>
                     <div class="containertimeline right_container">
-                        <div className='namemannu' style={{color:"white"}}>Established TCI</div>
+                        <div className='namemannu' style={{color:"white"}}>Established TCI (India)</div>
                         {/* <img src="/images/19.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2005 Established Trans Continental Freight Service (India) PVT. LTD.</p>
@@ -132,7 +132,7 @@ const About = () => {
                         </div>
                     </div>
                     <div class="containertimeline left_container">
-                        <div className='namemannu' style={{color:"white"}}> Established South Africa </div>
+                        <div className='namemannu' style={{color:"white"}}> Established TCI (South Africa) </div>
                         {/* <img src="/images/2.jpg.jpg" alt="" /> */}
                         <div class="text-box">
                             <p className='timelinetext'>2010 APR. TCI Logistics South Africa PTY.,LTD – Acquired License.</p>
