@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
           <div className="contactfirst1">
             <div className="officeadd">
-              <p>Affiliated Office in India</p>
+              <p>Affiliated Offices in India</p>
             </div>
             <div className="officelocation">
               <p>A-4, 1st Floor, Main Vasant Kunj Road
