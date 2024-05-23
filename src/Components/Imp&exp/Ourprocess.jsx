@@ -27,7 +27,7 @@ const Ourprocess = () => {
           </div>
         </div>
         <div className="impexpprocessheading">
-          <p>Our See Import and Export Process</p>
+          <p>Our Sea Import and Export Process</p>
         </div>
         <hr />
         <div className='airprocess'>

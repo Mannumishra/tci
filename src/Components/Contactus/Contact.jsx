@@ -100,7 +100,7 @@ const Contact = () => {
                 </div>
 
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://tci-git-main-mannu-s-projects.vercel.app/contact" />
+                <input type="hidden" name="_next" value="https://www.tciindia.co.in/contact" />
                 <input type="hidden" name="_template" value="table" />
 
                 <div class="mb-3">
