@@ -36,10 +36,10 @@ const Footer = () => {
             <div className="third">
               <p className='footerheading'>CONTACT US</p>
               <div className="">
-                <p style={{fontSize:15}}>Call Us : <span><a href="tel:+9151140764076" style={{color:"white"}}>+91 01140764076 </a></span></p>
-                <p style={{fontSize:15}}>Call Us (Air Import) : <span><a href="tel:+919555686520"  style={{color:"white"}}>+91 9555686520 </a></span></p>
-                <p style={{fontSize:15}}>Call Us (Sea Import) : <span><a href="tel:+919540603266"  style={{color:"white"}}>+91 9540603266 </a></span></p>
-                <p style={{fontSize:15}}>Call Us (Air & Sea Export)  : <span><a href="tel:+919599297900"  style={{color:"white"}}>+91 9599297900 </a></span></p>
+                <p style={{fontSize:15}}>Call us : <span><a href="tel:+9151140764076" style={{color:"white"}}>+91 01140764076 </a></span></p>
+                <p style={{fontSize:15}}>Call us (Air Import) : <span><a href="tel:+919555686520"  style={{color:"white"}}>+91 9555686520 </a></span></p>
+                <p style={{fontSize:15}}>Call us (Sea Import) : <span><a href="tel:+919540603266"  style={{color:"white"}}>+91 9540603266 </a></span></p>
+                <p style={{fontSize:15}}>Call us (Air & Sea Export)  : <span><a href="tel:+919599297900"  style={{color:"white"}}>+91 9599297900 </a></span></p>
                 <p style={{fontSize:15}}>Email : <span><a href="mailto:Pricing@tciindia.co.in,sanjiv@tciindia.co.in,rinku@tciindia.co.in,sales@tciindia.co.in,prakash@tciindia.co.in,export@tciindia.co.in"  style={{color:"white"}}>sanjiv@tciindia.co.in , rinku@tciindia.co.in , prakash@tciindia.co.in , pricing@tciindia.co.in ,  sales@tciindia.co.in ,  export@tciindia.co.in</a></span></p>
               </div>
               {/* <p className='fotertext'>Privacy Policy</p>
