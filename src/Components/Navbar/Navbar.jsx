@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../../image/logo.jpg'
-import koriya from '../../image/koriya.webp'
-import india from '../../image/indiaflaggg.jpg'
+import koriya from '../../image/koreaflag.jpeg'
+import india from '../../image/indiaflag.jpeg'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div><i class="ri-time-line remixicon"></i>  09:30 AM - 06:30 PM - Monday to Friday and 09:30 AM - 02:00 PM - Saturday</div>
           <div className='' style={{ display: "flex", gap: 20 }}>
             <div><img src={india} alt="" style={{ height: 22 }} />  INDIA</div>
-            <div><img src={koriya} alt="" style={{ height: 28 }}/>KOREA</div>
+            <div><img src={koriya} alt="" style={{ height: 22 }}/>&nbsp;KOREA</div>
           </div>
         </div>
         <div className="navbarmain">
